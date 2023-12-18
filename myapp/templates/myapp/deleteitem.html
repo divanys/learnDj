@@ -7,7 +7,7 @@
         <div class="mb-4">
             <label class="block text-gray-700 text-sm font mb-2">Are you sure want to delete this item</label>
             <label class="block text-gray-700 text-sm font mb-2">{{ item.name }}</label>
-            <img class="w-70 h-70" src="{{ item.image.url }}" alt="img">
+            <img class="w-40 h-40" src="{{ item.image.url }}" alt="img">
         </div>
     <input class="bg-red-500 text-white px-5 py-3" type="submit" value="Confirm">
     <a class="button bg-green-500 text-white px-5 py-3" href="{% url 'myapp:index' %}">Cancel</a>
